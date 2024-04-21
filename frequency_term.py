@@ -80,17 +80,23 @@ if __name__=='__main__':
         file_ext = file_name.split('.') 
         
         """
-        Title:
-        Author:
-        Date:
-        Code version:
-        Availability:
+        Title: N/A
+        Author: RichieHindle; Feil, T
+        Date: Aug. 9, 2011; Oct. 10, 2023
+        Code version: N/A
+        Availability: https://stackoverflow.com/questions/6996603/how-can-i-delete-a-file-or-folder-in-python
         
         """
 
         # If-statement to ensure the file exists before action, will exit if it does not 
         if os.path.isfile(file_name) == False:
-            """ https://jakob-bagterp.github.io/colorist-for-python/#basics """
+            """ 
+            Title: N/A
+            Author: Bagterp, J
+            Date: 2023
+            Availability: https://stackoverflow.com/questions/73750465/color-print-in-python
+            
+            """
             print(f'\n{Color.YELLOW}{Effect.BOLD}This file does not exist, is not in this directory, or does not contain a file type{Effect.OFF}{Color.OFF} \n') 
         elif file_ext[len(file_ext) - 1] not in accepted_type:
             print(f'\n{Color.YELLOW}{Effect.BOLD}This is an invalid file type; please try again{Effect.OFF}{Color.OFF} \n')
@@ -108,11 +114,11 @@ if __name__=='__main__':
         word_or_phrase = input('\nEnter which word and/or phrase to be searched. Enter "$!" if the results should be case sensitive. Use "/" to separate each word or phrase: ')
 
         """
-        Title:
-        Author:
-        Date:
-        Code version:
-        Availability:
+        Title: N/A
+        Author: Tomerikoo; petezurich
+        Date: Mar. 14, 2020; Apr. 6, 2021
+        Code version: N/A
+        Availability: https://stackoverflow.com/questions/60684350/replace-multiple-characters-using-re-sub
     
         """
         if '$!' in word_or_phrase:
@@ -122,7 +128,15 @@ if __name__=='__main__':
         
         # Remove input that contains RegEx parameters
         word_or_phrases = re.sub(r'[\$\^\*\(\)\+\|\\?\[\]\{\}]', '', word_or_phrase)
-                
+        
+        """
+        Title: N/A
+        Author: W3schools; freeCodeCamp
+        Date: N/A
+        Code version: N/A
+        Availability: https://www.w3schools.com/python/ref_string_split.asp; https://www.freecodecamp.org/news/python-strip-how-to-trim-a-string-or-line/
+        
+        """
         # Split the input, and separate each word and (or) phrase so each can be found 
         for entered in word_or_phrases.split('/'):
             if entered == ' ': # Does not include blank spaces (not including blank space before or after words) 
@@ -141,14 +155,6 @@ if __name__=='__main__':
             print('Terminating . . . ')
             exit()
             
-        """
-        Title: N/A
-        Author: anubhava
-        Date: Jul. 17, 2017
-        Code version: N/A
-        Availability: https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes
-    
-        """
     try:
         if '.txt' in file_name: # CHARDET
             line = []
@@ -162,32 +168,38 @@ if __name__=='__main__':
                 Availability: https://www.freecodecamp.org/news/python-bytes-to-string-how-to-convert-a-bytestring/
                 """
                 lines = lines.decode() # To remove and translate remaining encoded values
-                """ anubhava """
+                """ 
+                Title: N/A
+                Author: anubhava
+                Date: Jul. 17, 2017
+                Availability: https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes
+                
+                """
                 convert = re.sub(r'[‘’“”—]', lambda c: {'‘': '\'', '’': '\'', '“': '"', '”': '"', '—': '--'}[c.group(0)], lines)
                 line.append(convert)
             """
-            Title:
-            Author:
-            Date:
-            Code version:
-            Availability: https://pymupdf.readthedocs.io/en/latest/document.html#Document.needs_pass
+            Title: N/A
+            Author: Artifex Software
+            Date: N/A
+            Code version: N/A
+            Availability: https://pymupdf.readthedocs.io/en/latest/the-basics.html; https://pymupdf.readthedocs.io/en/latest/document.html#Document.needs_pass
         
             """
         else:
             old_file = fitz.open(file_name)
-            for attempts in range(1, 4):
-                if old_file.needs_pass == True: # Used to open password protected files
+            if old_file.needs_pass == True: # Used to open password protected files
+                for attempts in range(1, 4):
                     pwd = input('\nThis file is password protected. Enter the password: ')
                     if old_file.authenticate(pwd) == 0:
                         print(f'\n{Color.YELLOW}{Effect.BOLD}This password is incorrect. The program will terminate after three inccorect attempts.{Effect.OFF}{Color.OFF}\n')
                     else:
                         break
-                if attempts == 3:
-                    print('Terminating . . . ')
-                    exit()
-            new_file = open(extract_text_file, 'w')
+                    if attempts == 3:
+                        print('Terminating . . . ')
+                        exit()
+            new_file = open(extract_text_file, 'w') # Used to write text to new file (done similart to Artifex documentation)
             for page in old_file:
-                """ anubhava """
+                """ Another reference to: anubhava """
                 convert = re.sub(r'[‘’“”—]', lambda c: {'‘': '\'', '’': '\'', '“': '"', '”': '"', '—': '--'}[c.group(0)], page.get_text())
                 new_file.write(convert)
             new_file.close()
@@ -234,17 +246,26 @@ if __name__=='__main__':
         t.join()
         
         """
-        Title:
+        Title: N/A
         Author: W3schools
-        Date:
-        Code version:
-        Availability: https://www.w3schools.com/python/ref_func_map.asp
+        Date: N/A
+        Code version: N/A
+        Availability: https://www.w3schools.com/python/ref_func_map.asp; https://www.w3schools.com/python/trypython.asp?filename=demo_ref_map2
     
         """
 
         total = list(map(total_uses, (total), (queue.get()))) # Map used to add totals to total for result
         words_counted = words_counted + queue_two.get() # PDF seems to be the only file with a discrepancy in the words counted
-
+    
+    """
+    Title: N/A
+    Author: Schneider, I; Melebius
+    Date: May 24, 2012, Dec. 18, 2023
+    Code version: N/A
+    Availability: https://stackoverflow.com/questions/1823058/how-to-print-a-number-using-commas-as-thousands-separators
+    
+    """
+    
     print('Words counted: ' + f'{words_counted:,}' + '\n') # This word count was compared to WordCounter.net
 
     for i in range(len(total)):
@@ -259,7 +280,14 @@ if __name__=='__main__':
 
         print('\n* * *\n')
 
-    """ https://docs.python.org/3/library/os.html """
+    """
+    Title: N/A
+    Author: RichieHindle; Feil, T
+    Date: Aug. 9, 2011; Oct. 10, 2023
+    Code version: N/A
+    Availability: https://stackoverflow.com/questions/6996603/how-can-i-delete-a-file-or-folder-in-python
+        
+    """
 
     # Remove the file
     if os.path.isfile(extract_text_file):
