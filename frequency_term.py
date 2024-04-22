@@ -12,6 +12,8 @@ def search(line, lo, hi, input_to_find, c, q, q_two):
     times_used = [0] * len(input_to_find) # Each index is for each word and (or) phrase to be searched
 
     """
+    [1]
+    
     Title: N/A
     Author: Haren, M;  Amery, M
     Date: Feb. 1, 2009; Jun. 26, 2016
@@ -24,7 +26,7 @@ def search(line, lo, hi, input_to_find, c, q, q_two):
     for input_in in range(0, len(input_to_find)): 
         for section in range(lo, hi): # Index range used to search for the word and (or) phrase 
             if c == True:
-                """ Haren, Amery """
+                """ Another reference to [1] """
                 result = re.findall(input_to_find[input_in], line[section], re.IGNORECASE) # If word and (or) phrase in that range is found
             else:
                 result = re.findall(input_to_find[input_in], line[section])
@@ -49,10 +51,12 @@ def search(line, lo, hi, input_to_find, c, q, q_two):
     q_two.put(counted) # Total the number of words used for this part of the array
 
     """
-    Title:
+    [2]
+    
+    Title: N/A
     Author: W3schools
-    Date:
-    Code version:
+    Date: N/A
+    Code version: N/A
     Availability: https://www.w3schools.com/python/ref_func_map.asp, https://www.w3schools.com/python/trypython.asp?filename=demo_ref_map2
     
     """
@@ -77,9 +81,13 @@ if __name__=='__main__':
     # Gives the user three attempts for the correct input
     for attempts in range(1, 4):
         file_name = input('Enter your file name and type (accepted file types: .epub, .pdf, .txt, and .docx): ') 
+        file_name = file_name.strip() # In case the user has the right name, but put spaces
+        
         file_ext = file_name.split('.') 
         
         """
+        [3]
+        
         Title: N/A
         Author: RichieHindle; Feil, T
         Date: Aug. 9, 2011; Oct. 10, 2023
@@ -91,6 +99,8 @@ if __name__=='__main__':
         # If-statement to ensure the file exists before action, will exit if it does not 
         if os.path.isfile(file_name) == False:
             """ 
+            [4]
+            
             Title: N/A
             Author: Bagterp, J
             Date: 2023
@@ -114,6 +124,24 @@ if __name__=='__main__':
         word_or_phrase = input('\nEnter which word and/or phrase to be searched. Enter "$!" if the results should be case sensitive. Use "/" to separate each word or phrase: ')
 
         """
+        [16]
+        
+        Title: N/A
+        Author: Filonenko, O
+        Date: Jul. 17, 2017
+        Code version: N/A
+        Availability: https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes
+    
+        """
+        
+        if '$!' in word_or_phrase:
+            # Geeks
+            word_or_phrase = word_or_phrase.replace('$!', '/')
+            case_insensitive = False
+            
+        """
+        [5]
+        
         Title: N/A
         Author: Tomerikoo; petezurich
         Date: Mar. 14, 2020; Apr. 6, 2021
@@ -121,15 +149,13 @@ if __name__=='__main__':
         Availability: https://stackoverflow.com/questions/60684350/replace-multiple-characters-using-re-sub
     
         """
-        if '$!' in word_or_phrase:
-            # Geeks
-            word_or_phrase = word_or_phrase.replace('$!', '/')
-            case_insensitive = False
         
         # Remove input that contains RegEx parameters
         word_or_phrases = re.sub(r'[\$\^\*\(\)\+\|\\?\[\]\{\}]', '', word_or_phrase)
         
         """
+        [6]
+        
         Title: N/A
         Author: W3schools; freeCodeCamp
         Date: N/A
@@ -161,6 +187,8 @@ if __name__=='__main__':
             file = open(file_name, 'rb')
             for lines in file:
                 """
+                [7]
+                
                 Title:
                 Author: Olumide, S
                 Date: April 10, 2023
@@ -169,8 +197,10 @@ if __name__=='__main__':
                 """
                 lines = lines.decode() # To remove and translate remaining encoded values
                 """ 
+                [8]
+                
                 Title: N/A
-                Author: anubhava
+                Author: Uriel
                 Date: Jul. 17, 2017
                 Availability: https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes
                 
@@ -178,6 +208,8 @@ if __name__=='__main__':
                 convert = re.sub(r'[‘’“”—]', lambda c: {'‘': '\'', '’': '\'', '“': '"', '”': '"', '—': '--'}[c.group(0)], lines)
                 line.append(convert)
             """
+            [9]
+            
             Title: N/A
             Author: Artifex Software
             Date: N/A
@@ -199,7 +231,7 @@ if __name__=='__main__':
                         exit()
             new_file = open(extract_text_file, 'w') # Used to write text to new file (done similart to Artifex documentation)
             for page in old_file:
-                """ Another reference to: anubhava """
+                """ Another reference to [8] """
                 convert = re.sub(r'[‘’“”—]', lambda c: {'‘': '\'', '’': '\'', '“': '"', '”': '"', '—': '--'}[c.group(0)], page.get_text())
                 new_file.write(convert)
             new_file.close()
@@ -207,6 +239,16 @@ if __name__=='__main__':
 
             # Read the text (ignores images) from the original file format
             file = open(extract_text_file, 'r')
+            """
+            [10]
+            
+            Title: N/A
+            Author: santosh Yadav; Bertram, G
+            Date: Nov. 8, 2011
+            Code version: N/A
+            Availability: https://stackoverflow.com/questions/2444538/go-to-a-specific-line-in-python
+            
+            """
             line = file.readlines()
             file.close()
     except FileNotFoundError:
@@ -221,6 +263,8 @@ if __name__=='__main__':
     time.sleep(1)
     
     """
+    [11]
+    
     Title: N/A
     Author: Agrawal, R
     Date: Mar. 26, 2024
@@ -246,6 +290,8 @@ if __name__=='__main__':
         t.join()
         
         """
+        [12]
+        
         Title: N/A
         Author: W3schools
         Date: N/A
@@ -258,6 +304,8 @@ if __name__=='__main__':
         words_counted = words_counted + queue_two.get() # PDF seems to be the only file with a discrepancy in the words counted
     
     """
+    [13]
+    
     Title: N/A
     Author: Schneider, I; Melebius
     Date: May 24, 2012, Dec. 18, 2023
@@ -276,11 +324,22 @@ if __name__=='__main__':
         else:
             print('\nWord or phrase: [' + str(to_find[i]) + ']\n')
             print('Number of uses: ' + str(total[i]) + ' time') # Display uses 
+        """
+        [14]
+        Title: N/A
+        Author: W3schools
+        Date: N/A
+        Code version: N/A
+        Availability: https://www.w3schools.com/python/ref_func_round.asp
+        
+        """
         print('Relative frequency: ' + str(round(frequency, 5)) + ' or ' + str(round(frequency * 100, 4)) + '%\n') # Display frequency
 
         print('\n* * *\n')
 
     """
+    [15]
+    
     Title: N/A
     Author: RichieHindle; Feil, T
     Date: Aug. 9, 2011; Oct. 10, 2023
