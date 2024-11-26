@@ -115,6 +115,7 @@ if __name__=='__main__':
 
         # If the user does not have the correct input by the third attempt
         if attempts == 3:
+            """ Similar to the "Looping . . ." used for the Linux code in OS Security """
             print('Terminating . . . ')
             exit()
 
@@ -189,11 +190,12 @@ if __name__=='__main__':
                 """
                 [7]
                 
-                Title:
+                Title: N/A
                 Author: Olumide, S
                 Date: April 10, 2023
                 Code version: N/A
                 Availability: https://www.freecodecamp.org/news/python-bytes-to-string-how-to-convert-a-bytestring/
+                
                 """
                 lines = lines.decode() # To remove and translate remaining encoded values
                 """ 
@@ -205,6 +207,8 @@ if __name__=='__main__':
                 Availability: https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes
                 
                 """
+                
+                """ Similar, but I don't think I directly referenced: https://stackoverflow.com/questions/53604478/python3-convert-apostrophe-unicode-string """
                 convert = re.sub(r'[‘’“”—]', lambda c: {'‘': '\'', '’': '\'', '“': '"', '”': '"', '—': '--'}[c.group(0)], lines)
                 line.append(convert)
             """
@@ -243,10 +247,10 @@ if __name__=='__main__':
             [10]
             
             Title: N/A
-            Author: santosh Yadav; Bertram, G
-            Date: Nov. 8, 2011
+            Author: Pavithra B
+            Date: May 9, 2020
             Code version: N/A
-            Availability: https://stackoverflow.com/questions/2444538/go-to-a-specific-line-in-python
+            Availability: https://stackoverflow.com/questions/55254230/how-to-find-the-length-of-the-file-in-python3
             
             """
             line = file.readlines()
