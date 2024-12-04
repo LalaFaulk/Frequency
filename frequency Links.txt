@@ -1,0 +1,218 @@
+Some of the website I browsed or clicked on during this project (likely overcited):
+
+
+[1] S. Panjwani. “Multiprocessing Vs. Threading In Python: What You Need To Know.” timber.io. https://clayton.view.usg.edu/d2l/le/content/2980371/viewContent/60322804/View (accessed Mar. 24, 2024). 
+
+[2] “How can I delete a file or folder in Python?” stackoverflow.com. https://stackoverflow.com/questions/6996603/how-can-i-delete-a-file-or-folder-in-python (accessed Apr. 15, 2024). 
+
+[3] “Replace multiple characters using re.sub [duplicate].” stackoverflow.com. https://stackoverflow.com/questions/60684350/replace-multiple-characters-using-re-sub (accessed Apr. 17, 2024). 
+
+[4] “How to replace multiple matches / groups with regexes.” stackoverflow.com. https://stackoverflow.com/questions/45142327/how-to-replace-multiple-matches-groups-with-regexes (accessed Apr. 18, 2024). 
+
+[5] “Python UnicodeDecodeError on smart quotes [duplicate].” stackoverflow.com. https://stackoverflow.com/questions/53116301/python-unicodedecodeerror-on-smart-quotes (accessed Apr. 16, 2024). 
+
+[6] “The Basics.” pymupdf.readthedocs.io. https://pymupdf.readthedocs.io/en/latest/the-basics.html (accessed Apr. 14, 2024). 
+
+[7] “Read a file line by line in Python.” geeksforgeeks.org. https://www.geeksforgeeks.org/read-a-file-line-by-line-in-python/ (accessed Mar. 27, 2023). 
+
+ 
+
+Many references I used, some of them directly, some of them are websites that weren’t directly used or needed. Didn’t have enough time to format. 
+
+[8] M. Pilgrim, D. Blanchard, I. Cordasco. “Usage.” chardet.readthedocs.io. https://chardet.readthedocs.io/en/latest/usage.html#example-using-the-detect-function (accessed Apr. 16, 2024). 
+
+[9] “python docx changes apostrophe to €™.” statckoverflow.com. https://stackoverflow.com/questions/64128765/python-docx-changes-apostrophe-to-%E2%82%AC 
+
+I only cited once for W3Schools, though I don’t think it’s technically documentation, but there were too many citations. 
+
+[10] “Python Tutorial.” w3schools.com. https://www.w3schools.com/python/default.asp (accessed Mar. 6, 2024). 
+
+[11] https://www.justinweiss.com/articles/how-to-get-from-theyre-to-theyre/ 
+
+I didn’t directly use this [12], but it’s a bit similar to my code, so I added it. 
+
+[12] “PDF Extraction with python wrappers.” discuss.python.org.  https://discuss.python.org/t/pdf-extraction-with-python-wrappers/40384 (accessed Apr. 8, 2024). 
+
+[13] https://www.gutenberg.org/ebooks/search/?query=Dracula&submit_search=Go%21 
+
+[14] J. Singer-Vine and S. Jain. “jsvine/pdfplumber.” github.com. https://github.com/jsvine/pdfplumber?tab=readme-ov-file#extracting-text (accessed Apr. 8, 2024). 
+
+[15] “Go to a specific line in Python?” stackoverflow.com.  https://stackoverflow.com/questions/2444538/go-to-a-specific-line-in-python (accessed Apr. 16, 2024). 
+
+[16] “Error - UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte.” reddit.com. https://www.reddit.com/r/learnpython/comments/13d3l8o/error_unicodedecodeerror_utf8_codec_cant_decode/ (accessed Apr. 16, 2024). 
+
+[17]  “codecs — Codec registry and base classes.” docs.python.org. https://docs.python.org/3/library/codecs.html (accessed Apr. 17, 2024). 
+
+[18] “How can I remove 'weird' characters from my output (UTF-8 encoding issue?).” reddit.com. https://www.reddit.com/r/learnpython/comments/wgxfpy/how_can_i_remove_weird_characters_from_my_output/ (accessed Apr. 16, 2024). 
+
+[19] B. Solomon. “Unicode & Character Encodings in Python: A Painless Guide.” https://realpython.com/python-encodings-guide/#enter-unicode (accessed Apr. 16, 2024). 
+
+[20] “Python3: convert apostrophe unicode string.” stackoverflow.com. https://stackoverflow.com/questions/53604478/python3-convert-apostrophe-unicode-string (accessed Apr. 16, 2024). 
+
+[21] “How to open a password protected file?” reddit.com. https://www.reddit.com/r/learnpython/comments/xy1zxr/how_to_open_a_password_protected_file/ (accessed Apr. 18, 2024). 
+
+[22] “How can I delete a file or folder in Python?” stackoverflow.com. https://stackoverflow.com/questions/6996603/how-can-i-delete-a-file-or-folder-in-python (accessed Apr. 
+
+[23] “Color 'print' in Python.” stackoverflow.com. https://stackoverflow.com/questions/73750465/color-print-in-python (accessed Apr. 
+
+[24] Y. Zhou. “Python: 5 Ways to List Files in Directory .” builtin.com. https://builtin.com/data-science/python-list-files-in-directory (accessed Apr. 
+
+[25] “how to find the length of the file in python3? “ stackoverflow.com. https://stackoverflow.com/questions/55254230/how-to-find-the-length-of-the-file-in-python3 (accessed Apr. 16, 2024). 
+
+[26] R. Mohanan. “What Is Integration Testing? Types, Tools, and Best Practices.” spiceworks.com. https://www.spiceworks.com/tech/devops/articles/what-is-integration-testing/amp/ (accessed Apr. 19, 2024). 
+
+ 
+
+[27] Z. Jameel and S. Khan. “https://www.lambdatest.com/learning-hub/integration-testing.” lambdatest.com. https://www.lambdatest.com/learning-hub/integration-testing (accessed Apr. 19, 2024). 
+
+ 
+
+[28] “Unit, Integration, and Functional Testing.” docs.pylonsproject.org. https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/testing.html (accessed Apr. 19, 2024). 
+
+ 
+
+[29] A. Shaw. “Getting Started With Testing in Python.” realpython.com. https://realpython.com/python-testing/ (accessed Apr. 19, 2024). 
+
+ 
+
+[30] “What Is Relative Frequency and Cumulative Frequency?” houseofmath.com. https://www.houseofmath.com/encyclopedia/statistics-and-probability/statistics/collecting-data/what-is-relative-frequency-and-cumulative-frequency (accessed Apr. 16, 2024). 
+
+ 
+
+[31] R. Agrawal. “How to Clear Screen in Python?” naukri.com. https://www.naukri.com/code360/library/how-to-clear-a-screen-in-python (accessed Apr. 16, 2024). 
+
+[32] “Get the string within brackets in Python.” stackoverflow.com. https://stackoverflow.com/questions/8569201/get-the-string-within-brackets-in-python (accessed Apr. 18, 2024). 
+
+[33] “Python | os.system() method.” geeksforgeeks.org. https://www.geeksforgeeks.org/python-os-system-method/ (accessed Apr. 16, 2024). 
+
+[34] S. Singh. “exit() in Python.” scaler.com. https://www.scaler.com/topics/exit-in-python/ (accessed Apr. 21, 2024). 
+
+[35] S. Olumide. freecodecamp.org. “Python Bytes to String – How to Convert a Bytestring.” https://www.freecodecamp.org/news/python-bytes-to-string-how-to-convert-a-bytestring/ (accessed Apr. 16, 2024). 
+
+[36] D. Lemonaki. “How to Check if a File Exists in Python with isFile() and exists().” https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python/ (accessed Apr. 15, 2024). 
+
+[37]https://docs.python.org/3/library/codecs.html 
+
+[38]https://stackoverflow.com/questions/59952915/in-python-3-how-do-you-remove-all-non-utf8-characters-from-a-string 
+
+[39]https://stackoverflow.com/questions/28172022/character-encoding-of-microsoft-word-doc-and-docx-files 
+
+[40]https://stackoverflow.com/questions/44470991/python-reading-all-kinds-of-files-in-different-encodings 
+
+[41]https://stackoverflow.com/questions/66708624/determine-encoding-of-an-item-with-its-start-byte 
+
+[42]https://stackoverflow.com/questions/41471502/utf8-codec-cant-decode-byte-0xb5-in-position-0-invalid-start-byte 
+
+ 
+
+[43]https://stackoverflow.com/questions/55076502/utf-8-codec-cant-decode-byte-0xb5-in-position-0-invalid-start-byte 
+
+ 
+
+[44]https://stackoverflow.com/questions/56075269/encoding-text-with-multiple-encodings 
+
+ 
+
+[45]https://stackoverflow.com/questions/19644507/convert-different-encodings-to-ascii 
+
+ 
+
+[46]https://stackoverflow.com/questions/75848174/unicodedecodeerror-utf-8-codec-cant-decode-byte-0xae-in-position-11-invalid 
+
+ 
+
+[47]https://stackoverflow.com/questions/33194601/how-do-i-decode-an-image-pdf-file-properly-in-python3 
+
+ 
+
+[48]https://www.digitalocean.com/community/tutorials/python-string-comparison 
+
+ 
+
+[49]https://stackoverflow.com/questions/3873361/finding-multiple-occurrences-of-a-string-within-a-string-in-python 
+
+[50]https://stackoverflow.com/questions/69178811/python-split-string-by-multiple-delimiters-and-or-combination-of-multiple-delimi 
+
+ 
+
+[51]https://stackoverflow.com/questions/73092443/best-way-to-extract-data-from-pdf-and-add-them-to-a-dataframe 
+
+ 
+
+[52]https://stackoverflow.com/questions/10393157/splitting-a-string-with-multiple-delimiters-in-python 
+
+ 
+
+[53]https://proton.me/blog/password-protect-pdfs 
+
+ 
+
+[54] 
+
+[55] 
+
+ 
+
+https://answers.microsoft.com/en-us/windows/forum/all/can-we-protect-password-in-notepad-file/7a207b11-7b51-4289-bdf0-9754fe43590d 
+
+https://www.adobe.com/acrobat/online/password-protect-pdf.html 
+
+https://github.com/jsvine/pdfplumber?tab=readme-ov-file#extracting-text 
+
+https://stackoverflow.com/questions/72531460/extracting-text-in-known-bbox-from-pdf-pdfquery-too-slow 
+
+https://www.reddit.com/r/learnpython/comments/xy1zxr/how_to_open_a_password_protected_file/ 
+
+https://www.reddit.com/r/coldfusion/comments/18zaplz/is_it_possible_to_password_protect_a_txt_file/ 
+
+https://bamwrites.blogspot.com/2021/09/hyphens-em-dashes-and-ellipses.html 
+
+https://charcounter.com/en/ 
+
+https://stackoverflow.com/questions/66967037/how-to-make-re-findall-case-insensitve 
+
+https://stackoverflow.com/questions/500864/case-insensitive-regular-expression-without-re-compile 
+
+https://stackoverflow.com/questions/74924400/case-insensitive-section-of-a-pattern 
+
+https://stackoverflow.com/questions/66967037/how-to-make-re-findall-case-insensitve 
+
+https://stackoverflow.com/questions/1823058/how-to-print-a-number-using-commas-as-thousands-separators 
+
+https://www.geeksforgeeks.org/ways-to-remove-ith-character-from-string-in-python/ 
+
+https://stackoverflow.com/questions/60684350/replace-multiple-characters-using-re-sub 
+
+https://wordcounter.net/ 
+
+https://stackoverflow.com/questions/28945572/is-there-a-way-to-format-a-number-with-commas-for-thousands-without-converting 
+
+https://stackoverflow.com/questions/74924400/case-insensitive-section-of-a-pattern 
+
+https://stackoverflow.com/questions/72963015/replacing-multiple-characters-at-once 
+
+https://stackoverflow.com/questions/15175142/how-can-i-do-multiple-substitutions-using-regex 
+
+https://stackoverflow.com/questions/72324724/error-in-substituting-with-regex-in-python 
+
+https://stackoverflow.com/questions/44123720/python-regular-expressions-making-multiple-different-substitutions-in-a-single 
+
+https://stackoverflow.com/questions/63854170/python-regex-parse-string-with-brackets 
+
+https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file 
+
+https://davidmburke.com/2014/02/04/python-convert-documents-doc-docx-odt-pdf-to-plain-text-without-libreoffice/ 
+
+https://www.indeed.com/career-advice/career-development/types-of-files 
+
+https://docs.python.org/3/library/os.html 
+
+https://www.reddit.com/r/coldfusion/comments/18zaplz/is_it_possible_to_password_protect_a_txt_file/ 
+
+https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion 
+
+https://www.geeksforgeeks.org/text-file-formats/ 
+
+https://www.reddit.com/r/learnpython/comments/fwjo6n/how_to_move_my_project_to_a_new_computer_what_is/ 
+
+https://www.programiz.com/python-programming/online-compiler/#google_vignette 
